@@ -41,7 +41,9 @@ li a:hover {
     background-color: #111111;
 }
 
-
+p{
+font-size: 120%;
+}
  
 
 footer {
@@ -60,66 +62,68 @@ footer {
 </style>
 </head>
 <body>
-<header>
-<h1> Welcome to My Learnings </h1>
-</header>
+  <header>
+    <h1> Welcome to My Learnings </h1>
+  </header>
 
-<ul class="nav" >
-<li><a href:"#home"> Home </a> </li>
-<li><a href:"#news"> Info </a> </li>
-<li><a href:"#contact"> Contact </a> </li>
-<li><a href:"#home"> About </a> </li>
-</ul>
+  <ul class="nav" >
+    <li><a href:"#home"> Home </a> </li>
+    <li><a href:"#news"> Info </a> </li>
+    <li><a href:"#contact"> Contact </a> </li>
+    <li><a href:"#home"> About </a> </li>
+  </ul>
+  <p > After putting the efforts, sharing your learnings is joyful. Have a look at my learnings through each of my project:  </p>
+
+  <div class="apps">
+    <h2>Alpha-Blog</h2>
+    <ul style="list-style-type:none">
+      <li> Learned the MVC framework for development</li>
+      <li> Learned Html, Css, Bootstrap and Javascripts.</li>
+      <li> Used Git for local repositries and GitHub for hosting the remote repositries.</li>
+      <li> Method of Deploying the apps by using heroku in production.</li>
+      <li> The naming convention for model, controllers and views. </li>
+      <li> Managing the branches in git and merging them with the master branch.</li>
+      <li> Use of gem gravatar and gem pagination, for showing the images of users after linking them with  their emails and pagination of the content.</li>
+      <li> Validation in the models to save only valid data in db.</li>
+      <li> Created models, controllers and views and their method without using rails generators. </li>
+      <li> Implementation of Flash messages for errors.</li>
+      <li> Performed some automated unit, functional and integration test.</li>
+    </ul>
+    
+    <h2>Finance-Tracker App</h2>
+    <ul style="list-style-type:none">
+      <li> Used devise for managing registrations and authentications.</li>
+      <li> Used gem stock_quote for retriving the stocks from their tickers and  prices of these stocks.</li>
+      <li> Implementation of JS and AJAX for sending the data without refreshing the routes everytime.</li>
+      <li> Self methods which can be called directly by the class.</li>
+      <li> Build model, controller and view for a table by using the scaffold generator.</li>
+      <li> Implementation of friendship associations for adding the friends. </li>
+      <li> Adding fonts such as spinners for search function. </li>
+      <li> Implementation of many to many associations between the Models.</li>
+    </ul>
+
+    <h2>Photo App</h2>
+    <ul style="list-style-type:none">
+      <li> Managed registrations through devise.</li>
+      <li> Installation of twitter bootstrap theme using twitter bootstrap gem.</li>
+      <li> Implemention of email confirmation on Sign up by using sendgrid.</li>
+      <li> Setting the environment variables on local development and in production.</li> 
+      <li> Intergration of Stripe for payments on signing up for a paid plan.</li> 
+      <li> Uploading and managing images using Amazon S3 bucket.</li>
+    </ul>
+    
+    <h2>Saas-Project App</h2>
+    <ul style="list-style-type:none">
+      <li> Figured a 6 step solution for using milia, a gem for multi-tenanting, with Rails 5.1</li>
+      <li> Implemented a multi tenanting structure where organization can manage it's project, and memebers working on it</li>
+      <li> Admin can add new members to projects. After invitation user can sign up to the project after choosing a password.</li>
+      <li> Two different Paid Subscription plans for users.</li>
+      <li> Amazaon S3 bucket for uploading any necessary Artifacts for project.</li> 
+      <li> Implementation of Sendgrid for emails and Stripe for payment.</li>
+    </ul>
 
 
-<div class="apps">
-  <h2>Alpha-Blog</h2>
-   <ul style="list-style-type:none">
-<li> Learned the MVC framework for development</li>
-<li> Learned Html, Css, Bootstrap and Javascripts.</li>
-<li> Used Git for local repositries and GitHub for hosting the remote repositries.</li>
-<li> Method of Deploying the apps by using heroku in production.</li>
-<li> The naming convention for model, controllers and views. </li>
-<li> Managing the branches in git and merging them with the master branch.</li>
-<li> Use of gem gravatar and gem pagination, for showing the images of users after linking them with  their emails and pagination of the content.</li>
-<li> Validation in the models to save only valid data in db.</li>
-<li> Created models, controllers and views and their method without using rails generators. </li>
-<li> Implementation of Flash messages for errors.</li>
-<li> Performed some automated unit, functional and integration test.</li>
-   </ul>
-   
-   <h2>Finance-Tracker App</h2>
-      <ul style="list-style-type:none">
-<li> Used devise for managing registrations and authentications.</li>
-<li> Used gem stock_quote for retriving the stocks from their tickers and  prices of these stocks.</li>
-<li> Implementation of JS and AJAX for sending the data without refreshing the routes everytime.</li>
-<li> Self methods which can be called directly by the class.</li>
-<li> Build model, controller and view for a table by using the scaffold generator.</li>
-<li> Implementation of friendship associations for adding the friends. </li>
-<li> Adding fonts such as spinners for search function. </li>
-<li> Implementation of many to many associations between the Models.</li>
-</ul>
-
-      <h2>Photo App</h2>
-      <ul style="list-style-type:none">
-<li> Managed registrations through devise.</li>
-<li> Installation of twitter bootstrap theme using twitter bootstrap gem.</li>
-<li> Implemention of email confirmation on Sign up by using sendgrid.</li>
-<li> Setting the environment variables on local development and in production.</li> 
-<li> Intergration of Stripe for payments on signing up for a paid plan.</li> 
-<li> Uploading and managing images using Amazon S3 bucket.</li>
-      </ul>
-      <h2>Saas-Project App</h2>
-      <ul style="list-style-type:none">
-<li> Figured a 6 step solution for using milia, a gem for multi-tenanting, with Rails 5.1</li>
-<li> Two different Paid Subscription plans for users.</li>
-<li> Admin can invite a new member to the project. The invited user can sign up to the project after choosing a password.</li>
-<li> Amazaon S3 bucket for attachment of any necessary Artifacts for project. 
-	Sendgrid for emails and Stripe for emails and stripes.</li>
-      </ul>
-
-
-</div>
+  </div>
 <footer>
   <div> Yasir Anwar Learnings &reg </div>
 </footer>
